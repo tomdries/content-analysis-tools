@@ -7,6 +7,10 @@ For a demonstration of the package with a mockup interview transcript, see `demo
 Currently, it supports loading word (docx) documents, and it assumes all text in the document is preceded by participant numbers (formatted as, for example, `P1:`), and tagged with the following grammar `#tag-stem.suffix1.suffix2{elaborate comment}`. 
 
 
+## Usage
+Please cite the article (currently under review, ref will be added here). 
+
+
 ## Requirements
 lxml                4.6.3
 
@@ -16,7 +20,4 @@ regex               2021.4.4
 
 pandas              1.2.4
 
-
-## Usage
-It would be appreciated if you cite the article (currently under review, ref will be added here). 
 
