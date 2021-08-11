@@ -1,6 +1,6 @@
 # Content analysis tools
 
-This repo contains code to analyse text that contains tagged content, which I used to analyse an [interview with driving examiners](). 
+This repo contains code to analyse text that contains tagged content, which I used to analyse an [interview with driving examiners](https://www.researchgate.net/publication/353807732_Driving_Examiners'_Views_on_Data-Driven_Assessment_of_Test_Candidates_An_Interview_Study). 
 
 For a demonstration of the package with a mockup interview transcript, see `demo.ipynb`. This notebook can be previewed on github or alternatively via https://nbviewer.jupyter.org/.
 
