@@ -4,7 +4,7 @@ This repo contains code to analyse text that contains tagged content, which I us
 
 For a demonstration of the package with a mockup interview transcript, see `demo.ipynb`. This notebook can be previewed on github or alternatively via https://nbviewer.jupyter.org/.
 
-Currently, it supports loading word (docx) documents, and it assumes all text in the document is preceded by participant numbers (formatted as, for example, `P1:`), and tagged with the following grammar `#tag-stem.suffix1.suffix2{elaborate comment}`. 
+Currently, it supports loading strings and word (docx) documents, and it assumes all text in the document is preceded by participant numbers (formatted as, for example, `P1:`), and tagged with the following grammar `#tag-stem.suffix1.suffix2{elaborate comment}`. 
 
 
 ## Usage
