@@ -2,7 +2,9 @@
 
 This repo contains code to analyse text that contains tagged content, which I used to analyse an [interview with driving examiners](https://www.researchgate.net/publication/353807732_Driving_Examiners'_Views_on_Data-Driven_Assessment_of_Test_Candidates_An_Interview_Study). 
 
-For a demonstration of the package with a mockup interview transcript, see `demo.ipynb`. This notebook can be previewed on github or alternatively via https://nbviewer.jupyter.org/.
+For a demonstration of the package with a mockup interview transcript, see `demo.ipynb`. This notebook can be executed in the browser with binder: 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tomdries/content-analysis-tools/HEAD)
 
 Currently, it supports loading strings and word (docx) documents, and it assumes all text in the document is preceded by participant numbers (formatted as, for example, `P1:`), and tagged with the following grammar `#tag-stem.suffix1.suffix2{elaborate comment}`. 
 
