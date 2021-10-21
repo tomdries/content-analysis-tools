@@ -1,6 +1,6 @@
 # Content analysis tools
 
-This repo contains code to analyse text that contains tagged content, which I used to analyse an [interview with driving examiners](https://www.researchgate.net/publication/353807732_Driving_Examiners'_Views_on_Data-Driven_Assessment_of_Test_Candidates_An_Interview_Study). 
+This repo contains code to analyse text that contains tagged content, which I used to analyse an [interview with driving examiners](https://www.researchgate.net/publication/355393718_Driving_examiners'_views_on_data-driven_assessment_of_test_candidates_An_interview_study). 
 
 For a demonstration of the package with a mockup interview transcript, see `demo.ipynb`. This notebook can be executed in the browser with binder: 
 
@@ -10,18 +10,8 @@ Currently, it supports loading strings and word (docx) documents, and it assumes
 
 
 ## Usage
-Please cite the preprint or the main article (under review).  
+Please cite the following article:
 
-Preprint:
-
-Driessen, T., Picco, A., Dodou, D., de Waard, D., & de Winter, J. (2021). *Driving Examiners' Views on Data-Driven Assessment of Test Candidates: An Interview Study*. Researchgate. [https://www.researchgate.net/publication/353807732_Driving_Examiners'_Views_on_Data-Driven_Assessment_of_Test_Candidates_An_Interview_Study](https://www.researchgate.net/publication/353807732_Driving_Examiners'_Views_on_Data-Driven_Assessment_of_Test_Candidates_An_Interview_Study)
+Driessen, T., Picco, A., Dodou, D., de Waard, D., & de Winter, J. (2021). Driving examiners’ views on data-driven assessment of test candidates: An interview study. Transportation Research Part F: Traffic Psychology and Behaviour, 83, 60–79. https://doi.org/10.1016/j.trf.2021.09.021
 
 
-## Requirements
-|             | version  |
-|-------------|----------|
-| python      | 3.8.6    |
-| lxml        | 4.6.3    |
-| python-docx | 0.8.10   |
-| regex       | 2021.4.4 |
-| pandas      | 1.2.4    |
